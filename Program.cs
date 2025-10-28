@@ -4,8 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using minimalApi.Dominio.Interfaces;
 using minimalApi.Dominio.Servicos;
 using Microsoft.AspNetCore.Mvc;
-using minimalApi.Dominio.ModelViews;
 using minimalApi.Dominio.Entidades;
+using MinimalApi.Dominio.ModelViews;
 
 #region Builder
 var builder = WebApplication.CreateBuilder(args);
@@ -40,8 +40,30 @@ app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministra
 #endregion
 
 #region Veiculos
+ErrosDeValidacao validaDTO(VeiculoDTO veiculoDTO)
+{
+    var validacao = new ErrosDeValidacao{
+        Mensagens = new List<string>()
+    };
+
+    if(string.IsNullOrEmpty(veiculoDTO.Nome))
+        validacao.Mensagens.Add("O Nome não pode ser vazio");
+    
+    if(string.IsNullOrEmpty(veiculoDTO.Marca))
+        validacao.Mensagens.Add("O Marca não pode ficar em braco");
+
+    if (veiculoDTO.Ano < 1950)
+        validacao.Mensagens.Add("Veiculo muito antigo, permitido somente anos superiores á 1950");
+
+    return validacao;
+}
 app.MapPost("/veiculos", ([FromBody] VeiculoDTO veiculoDTO, IVeiculoServico veiculoServico) =>{
-    var veiculo = new Veiculo{
+    var validacao = validaDTO(veiculoDTO);
+    if (validacao.Mensagens.Count > 0)
+        return Results.BadRequest(validacao);
+
+    var veiculo = new Veiculo
+    {
         Nome = veiculoDTO.Nome,
         Marca = veiculoDTO.Marca,
         Ano = veiculoDTO.Ano
@@ -65,8 +87,13 @@ app.MapGet("/veiculos/{id}", ([FromRoute] int id, IVeiculoServico veiculoServico
 }).WithTags("Veiculos");
 
 app.MapPut("/veiculos/{id}", ([FromRoute] int id, VeiculoDTO veiculoDTO, IVeiculoServico veiculoServico) =>{
+    
     var veiculo = veiculoServico.BuscarPorId(id);
     if (veiculo == null) { return Results.NotFound(); }
+    
+    var validacao = validaDTO(veiculoDTO);
+    if (validacao.Mensagens.Count() > 0)
+        return Results.BadRequest(validacao);
 
     veiculo.Nome = veiculoDTO.Nome;
     veiculo.Marca = veiculoDTO.Marca;
