@@ -126,3 +126,8 @@ c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NE
 c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\obj\Debug\net9.0\Minimal-API.csproj.AssemblyReference.cache
 c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\obj\Debug\net9.0\Minimal-API.sourcelink.json
 C:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\obj\Debug\net9.0\Minimal-.80E62930.Up2Date
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\obj\Debug\net9.0\Minimal-API.MvcApplicationPartsAssemblyInfo.cs
