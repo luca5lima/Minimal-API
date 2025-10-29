@@ -131,3 +131,11 @@ c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NE
 c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\obj\Debug\net9.0\Minimal-API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\lucas\OneDrive\Documentos\MeusProjetos\Curso_Avanade - Back-end com .NET e IA\ModuloAPI\Minimal-API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
