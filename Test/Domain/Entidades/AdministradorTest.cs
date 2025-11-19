@@ -3,10 +3,10 @@ using minimalApi.Dominio.Entidades;
 namespace Test.Domain.Entidedes;
 
 [TestClass]
-public sealed class AdministradroTest
+public class AdministradorTest
 {
     [TestMethod]
-    public void TestestarGetSetPropriedades()
+    public void TestarGetSetPropriedades()
     {
         // Arrange
         var adm = new Administrador();

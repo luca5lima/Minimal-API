@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{307EC243-CA5A-4BBD-8C55-B36664907350}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D82C56D6-B2CD-F611-9E31-04638F7EC30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal-API", "Api\Minimal-API.csproj", "{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,23 @@ Global
 		{307EC243-CA5A-4BBD-8C55-B36664907350}.Release|x64.Build.0 = Release|Any CPU
 		{307EC243-CA5A-4BBD-8C55-B36664907350}.Release|x86.ActiveCfg = Release|Any CPU
 		{307EC243-CA5A-4BBD-8C55-B36664907350}.Release|x86.Build.0 = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|x64.Build.0 = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3336B904-38C4-4FEF-B5B9-1BC231C01F2D} = {D82C56D6-B2CD-F611-9E31-04638F7EC30E}
 	EndGlobalSection
 EndGlobal
